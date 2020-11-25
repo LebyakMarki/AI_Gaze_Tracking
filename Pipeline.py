@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 from Models import Head, Frame
 from mtcnn.mtcnn import MTCNN
+from gaze_v1.detect_gaze import get_gaze_point
 
 
 class Pipeline:
@@ -66,9 +67,18 @@ class Pipeline:
                     frame.one_face_detected = True
                     bounding_box = detections[0, 0, i, 3:7] * np.array([origin_w, origin_h, origin_w, origin_h])
                     x_start, y_start, x_end, y_end = bounding_box.astype('int')
-                    new_head = Head(x_start, y_start, x_end - x_start, y_end - y_start)
+                    new_head = Head(x_start, y_start, x_end - x_start, y_end - y_start, "none", None)
                     heads.append(new_head)
             frame.heads = heads
+
+    def get_directions(self):
+        print("> Started getting gaze directions side")
+        for index, frame in enumerate(self.video_structure):
+            for index2, head in enumerate(frame.heads):
+                head_image = frame.image[head.y:head.y + head.h, head.x:head.x + head.w]
+                direction, direction_image = get_gaze_point(head_image)
+                head.direction = direction
+                head.direction_image = direction_image
 
     def show_faces(self, wait_key=10):
         for index, frame in enumerate(self.video_structure):
@@ -85,3 +95,14 @@ class Pipeline:
             frame_name = "Frame " + str(index)
             cv2.imshow(frame_name, frame.image)
             cv2.waitKey(wait_key)
+
+    def show_gaze_detection(self, wait_key=10):
+        print("> Started showing gaze directions")
+        # Created for debugging and testing
+        for index, frame in enumerate(self.video_structure):
+            for index2, head in enumerate(frame.heads):
+                # gaze_image = np.float32(head.direction_image)
+                gaze_image = head.direction_image
+                cv2.putText(gaze_image, head.direction, (30, 450), cv2.FONT_HERSHEY_SIMPLEX, 3, (0, 255, 0), 2, cv2.LINE_AA)
+                cv2.imshow("Gaze", gaze_image)
+                cv2.waitKey(wait_key)

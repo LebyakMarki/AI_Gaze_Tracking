@@ -21,3 +21,5 @@ class Head(object):
     y: float
     w: float
     h: float
+    direction: str
+    direction_image: None
