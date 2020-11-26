@@ -3,12 +3,15 @@ import numpy as np
 from Models import Head, Frame
 from mtcnn.mtcnn import MTCNN
 from gaze_v1.detect_gaze import get_gaze_point
+import yaml
 
 
 class Pipeline:
     video_structure = []
+    number_of_frames = 0
+    number_of_faces = 0
 
-    def __init__(self, filename="test_videos/one_person_all_directions.mp4"):
+    def __init__(self, filename="test_videos/one_person_many_directions.mp4"):
         self.filename = filename
 
     def cut_into_frames(self):
@@ -20,6 +23,7 @@ class Pipeline:
             if success:
                 new_frame = Frame(image, [])
                 self.video_structure.append(new_frame)
+                self.number_of_frames += 1
 
     def simple_opencv_facedetection(self, path_to_cascade):
         for index, frame in enumerate(self.video_structure):
@@ -34,6 +38,7 @@ class Pipeline:
                 x, y, width, height = box
                 new_head = Head(x, y, width, height)
                 heads.append(new_head)
+                self.number_of_faces += 1
             frame.heads = heads
 
     def mtcnn_facedetection(self):
@@ -69,6 +74,7 @@ class Pipeline:
                     x_start, y_start, x_end, y_end = bounding_box.astype('int')
                     new_head = Head(x_start, y_start, x_end - x_start, y_end - y_start, "none", None)
                     heads.append(new_head)
+                    self.number_of_faces += 1
             frame.heads = heads
 
     def get_directions(self):
@@ -103,6 +109,26 @@ class Pipeline:
             for index2, head in enumerate(frame.heads):
                 # gaze_image = np.float32(head.direction_image)
                 gaze_image = head.direction_image
-                cv2.putText(gaze_image, head.direction, (30, 450), cv2.FONT_HERSHEY_SIMPLEX, 3, (0, 255, 0), 2, cv2.LINE_AA)
+                h, w, c = gaze_image.shape
+                cv2.putText(gaze_image, head.direction, (20, int(h) - 10), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
                 cv2.imshow("Gaze", gaze_image)
                 cv2.waitKey(wait_key)
+
+    def write_to_yaml(self):
+        data = {
+            "number of frames": self.number_of_frames,
+            "number of faces": self.number_of_faces,
+            "faces and directions": {}
+        }
+        all_results = {}
+        for index, frame in enumerate(self.video_structure):
+            string_name = "frame: " + str(index)
+            all_heads_directions = {}
+            for index2, head in enumerate(frame.heads):
+                string_head_name = "Head: " + str(index2)
+                all_heads_directions[string_head_name] = head.direction
+            all_results[string_name] = all_heads_directions
+        data["faces and directions"] = all_results
+        with open("result.yaml", "w") as fh:
+            yaml.dump(data, fh, sort_keys=False)
+

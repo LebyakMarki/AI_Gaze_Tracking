@@ -1,0 +1,1177 @@
+number of frames: 587
+number of faces: 587
+faces and directions:
+  'frame: 0':
+    'Head: 0': center
+  'frame: 1':
+    'Head: 0': center
+  'frame: 2':
+    'Head: 0': center
+  'frame: 3':
+    'Head: 0': center
+  'frame: 4':
+    'Head: 0': center
+  'frame: 5':
+    'Head: 0': center
+  'frame: 6':
+    'Head: 0': center
+  'frame: 7':
+    'Head: 0': center
+  'frame: 8':
+    'Head: 0': center
+  'frame: 9':
+    'Head: 0': center
+  'frame: 10':
+    'Head: 0': center
+  'frame: 11':
+    'Head: 0': center
+  'frame: 12':
+    'Head: 0': center
+  'frame: 13':
+    'Head: 0': center
+  'frame: 14':
+    'Head: 0': center
+  'frame: 15':
+    'Head: 0': center
+  'frame: 16':
+    'Head: 0': center
+  'frame: 17':
+    'Head: 0': center
+  'frame: 18':
+    'Head: 0': center
+  'frame: 19':
+    'Head: 0': center
+  'frame: 20':
+    'Head: 0': center
+  'frame: 21':
+    'Head: 0': center
+  'frame: 22':
+    'Head: 0': center
+  'frame: 23':
+    'Head: 0': center
+  'frame: 24':
+    'Head: 0': center
+  'frame: 25':
+    'Head: 0': center
+  'frame: 26':
+    'Head: 0': center
+  'frame: 27':
+    'Head: 0': center
+  'frame: 28':
+    'Head: 0': center
+  'frame: 29':
+    'Head: 0': center
+  'frame: 30':
+    'Head: 0': center
+  'frame: 31':
+    'Head: 0': center
+  'frame: 32':
+    'Head: 0': center
+  'frame: 33':
+    'Head: 0': center
+  'frame: 34':
+    'Head: 0': center
+  'frame: 35':
+    'Head: 0': center
+  'frame: 36':
+    'Head: 0': center
+  'frame: 37':
+    'Head: 0': center
+  'frame: 38':
+    'Head: 0': center
+  'frame: 39':
+    'Head: 0': center
+  'frame: 40':
+    'Head: 0': center
+  'frame: 41':
+    'Head: 0': center
+  'frame: 42':
+    'Head: 0': center
+  'frame: 43':
+    'Head: 0': center
+  'frame: 44':
+    'Head: 0': center
+  'frame: 45':
+    'Head: 0': center
+  'frame: 46':
+    'Head: 0': center
+  'frame: 47':
+    'Head: 0': center
+  'frame: 48':
+    'Head: 0': center
+  'frame: 49':
+    'Head: 0': center
+  'frame: 50':
+    'Head: 0': center
+  'frame: 51':
+    'Head: 0': center
+  'frame: 52':
+    'Head: 0': center
+  'frame: 53':
+    'Head: 0': left
+  'frame: 54':
+    'Head: 0': left
+  'frame: 55':
+    'Head: 0': left
+  'frame: 56':
+    'Head: 0': left
+  'frame: 57':
+    'Head: 0': left
+  'frame: 58':
+    'Head: 0': left
+  'frame: 59':
+    'Head: 0': left
+  'frame: 60':
+    'Head: 0': left
+  'frame: 61':
+    'Head: 0': left
+  'frame: 62':
+    'Head: 0': left
+  'frame: 63':
+    'Head: 0': left
+  'frame: 64':
+    'Head: 0': left
+  'frame: 65':
+    'Head: 0': left
+  'frame: 66':
+    'Head: 0': left
+  'frame: 67':
+    'Head: 0': left
+  'frame: 68':
+    'Head: 0': left
+  'frame: 69':
+    'Head: 0': left
+  'frame: 70':
+    'Head: 0': left
+  'frame: 71':
+    'Head: 0': left
+  'frame: 72':
+    'Head: 0': left
+  'frame: 73':
+    'Head: 0': left
+  'frame: 74':
+    'Head: 0': left
+  'frame: 75':
+    'Head: 0': left
+  'frame: 76':
+    'Head: 0': left
+  'frame: 77':
+    'Head: 0': left
+  'frame: 78':
+    'Head: 0': left
+  'frame: 79':
+    'Head: 0': left
+  'frame: 80':
+    'Head: 0': left
+  'frame: 81':
+    'Head: 0': left
+  'frame: 82':
+    'Head: 0': left
+  'frame: 83':
+    'Head: 0': left
+  'frame: 84':
+    'Head: 0': left
+  'frame: 85':
+    'Head: 0': left
+  'frame: 86':
+    'Head: 0': left
+  'frame: 87':
+    'Head: 0': left
+  'frame: 88':
+    'Head: 0': left
+  'frame: 89':
+    'Head: 0': left
+  'frame: 90':
+    'Head: 0': left
+  'frame: 91':
+    'Head: 0': left
+  'frame: 92':
+    'Head: 0': left
+  'frame: 93':
+    'Head: 0': left
+  'frame: 94':
+    'Head: 0': left
+  'frame: 95':
+    'Head: 0': left
+  'frame: 96':
+    'Head: 0': left
+  'frame: 97':
+    'Head: 0': left
+  'frame: 98':
+    'Head: 0': left
+  'frame: 99':
+    'Head: 0': left
+  'frame: 100':
+    'Head: 0': left
+  'frame: 101':
+    'Head: 0': left
+  'frame: 102':
+    'Head: 0': left
+  'frame: 103':
+    'Head: 0': left
+  'frame: 104':
+    'Head: 0': left
+  'frame: 105':
+    'Head: 0': left
+  'frame: 106':
+    'Head: 0': left
+  'frame: 107':
+    'Head: 0': left
+  'frame: 108':
+    'Head: 0': left
+  'frame: 109':
+    'Head: 0': left
+  'frame: 110':
+    'Head: 0': left
+  'frame: 111':
+    'Head: 0': left
+  'frame: 112':
+    'Head: 0': left
+  'frame: 113':
+    'Head: 0': left
+  'frame: 114':
+    'Head: 0': left
+  'frame: 115':
+    'Head: 0': left
+  'frame: 116':
+    'Head: 0': left
+  'frame: 117':
+    'Head: 0': left
+  'frame: 118':
+    'Head: 0': left
+  'frame: 119':
+    'Head: 0': left
+  'frame: 120':
+    'Head: 0': left
+  'frame: 121':
+    'Head: 0': left
+  'frame: 122':
+    'Head: 0': down-left
+  'frame: 123':
+    'Head: 0': down-left
+  'frame: 124':
+    'Head: 0': down-left
+  'frame: 125':
+    'Head: 0': left
+  'frame: 126':
+    'Head: 0': left
+  'frame: 127':
+    'Head: 0': center
+  'frame: 128':
+    'Head: 0': down-left
+  'frame: 129':
+    'Head: 0': down-left
+  'frame: 130':
+    'Head: 0': down-left
+  'frame: 131':
+    'Head: 0': down-left
+  'frame: 132':
+    'Head: 0': down
+  'frame: 133':
+    'Head: 0': down
+  'frame: 134':
+    'Head: 0': down
+  'frame: 135':
+    'Head: 0': down-left
+  'frame: 136':
+    'Head: 0': down-left
+  'frame: 137':
+    'Head: 0': down-left
+  'frame: 138':
+    'Head: 0': down-left
+  'frame: 139':
+    'Head: 0': left
+  'frame: 140':
+    'Head: 0': down-left
+  'frame: 141':
+    'Head: 0': left
+  'frame: 142':
+    'Head: 0': down-left
+  'frame: 143':
+    'Head: 0': left
+  'frame: 144':
+    'Head: 0': down-left
+  'frame: 145':
+    'Head: 0': down-left
+  'frame: 146':
+    'Head: 0': down-left
+  'frame: 147':
+    'Head: 0': down-left
+  'frame: 148':
+    'Head: 0': down-left
+  'frame: 149':
+    'Head: 0': down
+  'frame: 150':
+    'Head: 0': down-left
+  'frame: 151':
+    'Head: 0': down-left
+  'frame: 152':
+    'Head: 0': down-left
+  'frame: 153':
+    'Head: 0': left
+  'frame: 154':
+    'Head: 0': left
+  'frame: 155':
+    'Head: 0': left
+  'frame: 156':
+    'Head: 0': down-left
+  'frame: 157':
+    'Head: 0': left
+  'frame: 158':
+    'Head: 0': down-left
+  'frame: 159':
+    'Head: 0': down-left
+  'frame: 160':
+    'Head: 0': left
+  'frame: 161':
+    'Head: 0': down-left
+  'frame: 162':
+    'Head: 0': down-left
+  'frame: 163':
+    'Head: 0': down
+  'frame: 164':
+    'Head: 0': down
+  'frame: 165':
+    'Head: 0': down
+  'frame: 166':
+    'Head: 0': center
+  'frame: 167':
+    'Head: 0': center
+  'frame: 168':
+    'Head: 0': center
+  'frame: 169':
+    'Head: 0': down
+  'frame: 170':
+    'Head: 0': center
+  'frame: 171':
+    'Head: 0': center
+  'frame: 172':
+    'Head: 0': center
+  'frame: 173':
+    'Head: 0': center
+  'frame: 174':
+    'Head: 0': center
+  'frame: 175':
+    'Head: 0': center
+  'frame: 176':
+    'Head: 0': center
+  'frame: 177':
+    'Head: 0': center
+  'frame: 178':
+    'Head: 0': center
+  'frame: 179':
+    'Head: 0': center
+  'frame: 180':
+    'Head: 0': center
+  'frame: 181':
+    'Head: 0': right
+  'frame: 182':
+    'Head: 0': right
+  'frame: 183':
+    'Head: 0': right
+  'frame: 184':
+    'Head: 0': right
+  'frame: 185':
+    'Head: 0': right
+  'frame: 186':
+    'Head: 0': right
+  'frame: 187':
+    'Head: 0': right
+  'frame: 188':
+    'Head: 0': right
+  'frame: 189':
+    'Head: 0': right
+  'frame: 190':
+    'Head: 0': right
+  'frame: 191':
+    'Head: 0': right
+  'frame: 192':
+    'Head: 0': right
+  'frame: 193':
+    'Head: 0': right
+  'frame: 194':
+    'Head: 0': right
+  'frame: 195':
+    'Head: 0': right
+  'frame: 196':
+    'Head: 0': right
+  'frame: 197':
+    'Head: 0': right
+  'frame: 198':
+    'Head: 0': right
+  'frame: 199':
+    'Head: 0': right
+  'frame: 200':
+    'Head: 0': right
+  'frame: 201':
+    'Head: 0': right
+  'frame: 202':
+    'Head: 0': right
+  'frame: 203':
+    'Head: 0': right
+  'frame: 204':
+    'Head: 0': right
+  'frame: 205':
+    'Head: 0': right
+  'frame: 206':
+    'Head: 0': right
+  'frame: 207':
+    'Head: 0': right
+  'frame: 208':
+    'Head: 0': right
+  'frame: 209':
+    'Head: 0': right
+  'frame: 210':
+    'Head: 0': right
+  'frame: 211':
+    'Head: 0': right
+  'frame: 212':
+    'Head: 0': right
+  'frame: 213':
+    'Head: 0': right
+  'frame: 214':
+    'Head: 0': right
+  'frame: 215':
+    'Head: 0': right
+  'frame: 216':
+    'Head: 0': right
+  'frame: 217':
+    'Head: 0': right
+  'frame: 218':
+    'Head: 0': right
+  'frame: 219':
+    'Head: 0': right
+  'frame: 220':
+    'Head: 0': right
+  'frame: 221':
+    'Head: 0': right
+  'frame: 222':
+    'Head: 0': right
+  'frame: 223':
+    'Head: 0': right
+  'frame: 224':
+    'Head: 0': right
+  'frame: 225':
+    'Head: 0': right
+  'frame: 226':
+    'Head: 0': right
+  'frame: 227':
+    'Head: 0': right
+  'frame: 228':
+    'Head: 0': right
+  'frame: 229':
+    'Head: 0': right
+  'frame: 230':
+    'Head: 0': right
+  'frame: 231':
+    'Head: 0': right
+  'frame: 232':
+    'Head: 0': right
+  'frame: 233':
+    'Head: 0': center
+  'frame: 234':
+    'Head: 0': right
+  'frame: 235':
+    'Head: 0': right
+  'frame: 236':
+    'Head: 0': center
+  'frame: 237':
+    'Head: 0': center
+  'frame: 238':
+    'Head: 0': center
+  'frame: 239':
+    'Head: 0': center
+  'frame: 240':
+    'Head: 0': right
+  'frame: 241':
+    'Head: 0': center
+  'frame: 242':
+    'Head: 0': center
+  'frame: 243':
+    'Head: 0': center
+  'frame: 244':
+    'Head: 0': center
+  'frame: 245':
+    'Head: 0': center
+  'frame: 246':
+    'Head: 0': center
+  'frame: 247':
+    'Head: 0': center
+  'frame: 248':
+    'Head: 0': right
+  'frame: 249':
+    'Head: 0': right
+  'frame: 250':
+    'Head: 0': right
+  'frame: 251':
+    'Head: 0': right
+  'frame: 252':
+    'Head: 0': center
+  'frame: 253':
+    'Head: 0': center
+  'frame: 254':
+    'Head: 0': center
+  'frame: 255':
+    'Head: 0': right
+  'frame: 256':
+    'Head: 0': right
+  'frame: 257':
+    'Head: 0': center
+  'frame: 258':
+    'Head: 0': right
+  'frame: 259':
+    'Head: 0': center
+  'frame: 260':
+    'Head: 0': center
+  'frame: 261':
+    'Head: 0': center
+  'frame: 262':
+    'Head: 0': center
+  'frame: 263':
+    'Head: 0': center
+  'frame: 264':
+    'Head: 0': center
+  'frame: 265':
+    'Head: 0': down-right
+  'frame: 266':
+    'Head: 0': down
+  'frame: 267':
+    'Head: 0': down
+  'frame: 268':
+    'Head: 0': down
+  'frame: 269':
+    'Head: 0': down-right
+  'frame: 270':
+    'Head: 0': down
+  'frame: 271':
+    'Head: 0': down
+  'frame: 272':
+    'Head: 0': down
+  'frame: 273':
+    'Head: 0': down
+  'frame: 274':
+    'Head: 0': down
+  'frame: 275':
+    'Head: 0': down
+  'frame: 276':
+    'Head: 0': down
+  'frame: 277':
+    'Head: 0': down
+  'frame: 278':
+    'Head: 0': down
+  'frame: 279':
+    'Head: 0': down
+  'frame: 280':
+    'Head: 0': down
+  'frame: 281':
+    'Head: 0': down
+  'frame: 282':
+    'Head: 0': down
+  'frame: 283':
+    'Head: 0': down
+  'frame: 284':
+    'Head: 0': down
+  'frame: 285':
+    'Head: 0': down
+  'frame: 286':
+    'Head: 0': down
+  'frame: 287':
+    'Head: 0': down
+  'frame: 288':
+    'Head: 0': down
+  'frame: 289':
+    'Head: 0': down
+  'frame: 290':
+    'Head: 0': down
+  'frame: 291':
+    'Head: 0': down
+  'frame: 292':
+    'Head: 0': down
+  'frame: 293':
+    'Head: 0': down
+  'frame: 294':
+    'Head: 0': down
+  'frame: 295':
+    'Head: 0': down
+  'frame: 296':
+    'Head: 0': down
+  'frame: 297':
+    'Head: 0': down-right
+  'frame: 298':
+    'Head: 0': down
+  'frame: 299':
+    'Head: 0': down
+  'frame: 300':
+    'Head: 0': down
+  'frame: 301':
+    'Head: 0': down
+  'frame: 302':
+    'Head: 0': down
+  'frame: 303':
+    'Head: 0': down
+  'frame: 304':
+    'Head: 0': down
+  'frame: 305':
+    'Head: 0': down
+  'frame: 306':
+    'Head: 0': down
+  'frame: 307':
+    'Head: 0': down
+  'frame: 308':
+    'Head: 0': down
+  'frame: 309':
+    'Head: 0': down
+  'frame: 310':
+    'Head: 0': down
+  'frame: 311':
+    'Head: 0': down
+  'frame: 312':
+    'Head: 0': down
+  'frame: 313':
+    'Head: 0': down
+  'frame: 314':
+    'Head: 0': down
+  'frame: 315':
+    'Head: 0': down
+  'frame: 316':
+    'Head: 0': down
+  'frame: 317':
+    'Head: 0': down
+  'frame: 318':
+    'Head: 0': down-right
+  'frame: 319':
+    'Head: 0': down
+  'frame: 320':
+    'Head: 0': down
+  'frame: 321':
+    'Head: 0': down-right
+  'frame: 322':
+    'Head: 0': down
+  'frame: 323':
+    'Head: 0': down
+  'frame: 324':
+    'Head: 0': down
+  'frame: 325':
+    'Head: 0': down
+  'frame: 326':
+    'Head: 0': down
+  'frame: 327':
+    'Head: 0': down
+  'frame: 328':
+    'Head: 0': down
+  'frame: 329':
+    'Head: 0': down-left
+  'frame: 330':
+    'Head: 0': down-left
+  'frame: 331':
+    'Head: 0': down-left
+  'frame: 332':
+    'Head: 0': down
+  'frame: 333':
+    'Head: 0': down-left
+  'frame: 334':
+    'Head: 0': down-left
+  'frame: 335':
+    'Head: 0': down-left
+  'frame: 336':
+    'Head: 0': down
+  'frame: 337':
+    'Head: 0': down-left
+  'frame: 338':
+    'Head: 0': down-left
+  'frame: 339':
+    'Head: 0': down-left
+  'frame: 340':
+    'Head: 0': down-left
+  'frame: 341':
+    'Head: 0': down-left
+  'frame: 342':
+    'Head: 0': down-left
+  'frame: 343':
+    'Head: 0': down-left
+  'frame: 344':
+    'Head: 0': down-left
+  'frame: 345':
+    'Head: 0': down-left
+  'frame: 346':
+    'Head: 0': down-left
+  'frame: 347':
+    'Head: 0': down-left
+  'frame: 348':
+    'Head: 0': down-left
+  'frame: 349':
+    'Head: 0': down-left
+  'frame: 350':
+    'Head: 0': down-left
+  'frame: 351':
+    'Head: 0': down-left
+  'frame: 352':
+    'Head: 0': down-left
+  'frame: 353':
+    'Head: 0': down-left
+  'frame: 354':
+    'Head: 0': down-left
+  'frame: 355':
+    'Head: 0': down-left
+  'frame: 356':
+    'Head: 0': down-left
+  'frame: 357':
+    'Head: 0': down-left
+  'frame: 358':
+    'Head: 0': down-left
+  'frame: 359':
+    'Head: 0': down-left
+  'frame: 360':
+    'Head: 0': down-left
+  'frame: 361':
+    'Head: 0': down-left
+  'frame: 362':
+    'Head: 0': down-left
+  'frame: 363':
+    'Head: 0': down-left
+  'frame: 364':
+    'Head: 0': down-left
+  'frame: 365':
+    'Head: 0': down-left
+  'frame: 366':
+    'Head: 0': down-left
+  'frame: 367':
+    'Head: 0': down-left
+  'frame: 368':
+    'Head: 0': down-left
+  'frame: 369':
+    'Head: 0': down-left
+  'frame: 370':
+    'Head: 0': down-left
+  'frame: 371':
+    'Head: 0': down
+  'frame: 372':
+    'Head: 0': down
+  'frame: 373':
+    'Head: 0': down-left
+  'frame: 374':
+    'Head: 0': down
+  'frame: 375':
+    'Head: 0': down-left
+  'frame: 376':
+    'Head: 0': down
+  'frame: 377':
+    'Head: 0': down
+  'frame: 378':
+    'Head: 0': down
+  'frame: 379':
+    'Head: 0': down
+  'frame: 380':
+    'Head: 0': down
+  'frame: 381':
+    'Head: 0': down
+  'frame: 382':
+    'Head: 0': down
+  'frame: 383':
+    'Head: 0': down
+  'frame: 384':
+    'Head: 0': down
+  'frame: 385':
+    'Head: 0': down
+  'frame: 386':
+    'Head: 0': down
+  'frame: 387':
+    'Head: 0': down
+  'frame: 388':
+    'Head: 0': down
+  'frame: 389':
+    'Head: 0': down
+  'frame: 390':
+    'Head: 0': down
+  'frame: 391':
+    'Head: 0': down
+  'frame: 392':
+    'Head: 0': down
+  'frame: 393':
+    'Head: 0': down-left
+  'frame: 394':
+    'Head: 0': down
+  'frame: 395':
+    'Head: 0': down-left
+  'frame: 396':
+    'Head: 0': down
+  'frame: 397':
+    'Head: 0': down
+  'frame: 398':
+    'Head: 0': down
+  'frame: 399':
+    'Head: 0': down
+  'frame: 400':
+    'Head: 0': down
+  'frame: 401':
+    'Head: 0': down
+  'frame: 402':
+    'Head: 0': down
+  'frame: 403':
+    'Head: 0': down
+  'frame: 404':
+    'Head: 0': down
+  'frame: 405':
+    'Head: 0': down
+  'frame: 406':
+    'Head: 0': down
+  'frame: 407':
+    'Head: 0': down
+  'frame: 408':
+    'Head: 0': down
+  'frame: 409':
+    'Head: 0': down
+  'frame: 410':
+    'Head: 0': down
+  'frame: 411':
+    'Head: 0': down
+  'frame: 412':
+    'Head: 0': down
+  'frame: 413':
+    'Head: 0': down
+  'frame: 414':
+    'Head: 0': down
+  'frame: 415':
+    'Head: 0': down
+  'frame: 416':
+    'Head: 0': down
+  'frame: 417':
+    'Head: 0': down
+  'frame: 418':
+    'Head: 0': down
+  'frame: 419':
+    'Head: 0': down
+  'frame: 420':
+    'Head: 0': down
+  'frame: 421':
+    'Head: 0': down
+  'frame: 422':
+    'Head: 0': down
+  'frame: 423':
+    'Head: 0': down
+  'frame: 424':
+    'Head: 0': down
+  'frame: 425':
+    'Head: 0': down
+  'frame: 426':
+    'Head: 0': down
+  'frame: 427':
+    'Head: 0': down
+  'frame: 428':
+    'Head: 0': down
+  'frame: 429':
+    'Head: 0': down
+  'frame: 430':
+    'Head: 0': down
+  'frame: 431':
+    'Head: 0': down
+  'frame: 432':
+    'Head: 0': down
+  'frame: 433':
+    'Head: 0': down
+  'frame: 434':
+    'Head: 0': center
+  'frame: 435':
+    'Head: 0': down
+  'frame: 436':
+    'Head: 0': down
+  'frame: 437':
+    'Head: 0': down
+  'frame: 438':
+    'Head: 0': down
+  'frame: 439':
+    'Head: 0': down
+  'frame: 440':
+    'Head: 0': down
+  'frame: 441':
+    'Head: 0': center
+  'frame: 442':
+    'Head: 0': center
+  'frame: 443':
+    'Head: 0': center
+  'frame: 444':
+    'Head: 0': center
+  'frame: 445':
+    'Head: 0': center
+  'frame: 446':
+    'Head: 0': center
+  'frame: 447':
+    'Head: 0': center
+  'frame: 448':
+    'Head: 0': center
+  'frame: 449':
+    'Head: 0': center
+  'frame: 450':
+    'Head: 0': center
+  'frame: 451':
+    'Head: 0': center
+  'frame: 452':
+    'Head: 0': center
+  'frame: 453':
+    'Head: 0': center
+  'frame: 454':
+    'Head: 0': center
+  'frame: 455':
+    'Head: 0': center
+  'frame: 456':
+    'Head: 0': center
+  'frame: 457':
+    'Head: 0': center
+  'frame: 458':
+    'Head: 0': center
+  'frame: 459':
+    'Head: 0': center
+  'frame: 460':
+    'Head: 0': center
+  'frame: 461':
+    'Head: 0': center
+  'frame: 462':
+    'Head: 0': center
+  'frame: 463':
+    'Head: 0': center
+  'frame: 464':
+    'Head: 0': center
+  'frame: 465':
+    'Head: 0': center
+  'frame: 466':
+    'Head: 0': center
+  'frame: 467':
+    'Head: 0': center
+  'frame: 468':
+    'Head: 0': center
+  'frame: 469':
+    'Head: 0': center
+  'frame: 470':
+    'Head: 0': center
+  'frame: 471':
+    'Head: 0': center
+  'frame: 472':
+    'Head: 0': center
+  'frame: 473':
+    'Head: 0': center
+  'frame: 474':
+    'Head: 0': center
+  'frame: 475':
+    'Head: 0': center
+  'frame: 476':
+    'Head: 0': center
+  'frame: 477':
+    'Head: 0': center
+  'frame: 478':
+    'Head: 0': center
+  'frame: 479':
+    'Head: 0': center
+  'frame: 480':
+    'Head: 0': center
+  'frame: 481':
+    'Head: 0': center
+  'frame: 482':
+    'Head: 0': center
+  'frame: 483':
+    'Head: 0': center
+  'frame: 484':
+    'Head: 0': center
+  'frame: 485':
+    'Head: 0': center
+  'frame: 486':
+    'Head: 0': center
+  'frame: 487':
+    'Head: 0': center
+  'frame: 488':
+    'Head: 0': center
+  'frame: 489':
+    'Head: 0': center
+  'frame: 490':
+    'Head: 0': center
+  'frame: 491':
+    'Head: 0': center
+  'frame: 492':
+    'Head: 0': center
+  'frame: 493':
+    'Head: 0': center
+  'frame: 494':
+    'Head: 0': center
+  'frame: 495':
+    'Head: 0': center
+  'frame: 496':
+    'Head: 0': center
+  'frame: 497':
+    'Head: 0': center
+  'frame: 498':
+    'Head: 0': center
+  'frame: 499':
+    'Head: 0': center
+  'frame: 500':
+    'Head: 0': center
+  'frame: 501':
+    'Head: 0': center
+  'frame: 502':
+    'Head: 0': center
+  'frame: 503':
+    'Head: 0': center
+  'frame: 504':
+    'Head: 0': center
+  'frame: 505':
+    'Head: 0': center
+  'frame: 506':
+    'Head: 0': center
+  'frame: 507':
+    'Head: 0': center
+  'frame: 508':
+    'Head: 0': center
+  'frame: 509':
+    'Head: 0': center
+  'frame: 510':
+    'Head: 0': center
+  'frame: 511':
+    'Head: 0': center
+  'frame: 512':
+    'Head: 0': center
+  'frame: 513':
+    'Head: 0': right
+  'frame: 514':
+    'Head: 0': center
+  'frame: 515':
+    'Head: 0': center
+  'frame: 516':
+    'Head: 0': center
+  'frame: 517':
+    'Head: 0': center
+  'frame: 518':
+    'Head: 0': center
+  'frame: 519':
+    'Head: 0': center
+  'frame: 520':
+    'Head: 0': center
+  'frame: 521':
+    'Head: 0': center
+  'frame: 522':
+    'Head: 0': center
+  'frame: 523':
+    'Head: 0': center
+  'frame: 524':
+    'Head: 0': center
+  'frame: 525':
+    'Head: 0': down
+  'frame: 526':
+    'Head: 0': down
+  'frame: 527':
+    'Head: 0': down-right
+  'frame: 528':
+    'Head: 0': down
+  'frame: 529':
+    'Head: 0': center
+  'frame: 530':
+    'Head: 0': center
+  'frame: 531':
+    'Head: 0': center
+  'frame: 532':
+    'Head: 0': center
+  'frame: 533':
+    'Head: 0': center
+  'frame: 534':
+    'Head: 0': center
+  'frame: 535':
+    'Head: 0': center
+  'frame: 536':
+    'Head: 0': center
+  'frame: 537':
+    'Head: 0': center
+  'frame: 538':
+    'Head: 0': center
+  'frame: 539':
+    'Head: 0': center
+  'frame: 540':
+    'Head: 0': center
+  'frame: 541':
+    'Head: 0': center
+  'frame: 542':
+    'Head: 0': center
+  'frame: 543':
+    'Head: 0': center
+  'frame: 544':
+    'Head: 0': center
+  'frame: 545':
+    'Head: 0': center
+  'frame: 546':
+    'Head: 0': center
+  'frame: 547':
+    'Head: 0': center
+  'frame: 548':
+    'Head: 0': center
+  'frame: 549':
+    'Head: 0': center
+  'frame: 550':
+    'Head: 0': center
+  'frame: 551':
+    'Head: 0': center
+  'frame: 552':
+    'Head: 0': center
+  'frame: 553':
+    'Head: 0': center
+  'frame: 554':
+    'Head: 0': center
+  'frame: 555':
+    'Head: 0': center
+  'frame: 556':
+    'Head: 0': center
+  'frame: 557':
+    'Head: 0': center
+  'frame: 558':
+    'Head: 0': center
+  'frame: 559':
+    'Head: 0': center
+  'frame: 560':
+    'Head: 0': center
+  'frame: 561':
+    'Head: 0': center
+  'frame: 562':
+    'Head: 0': center
+  'frame: 563':
+    'Head: 0': center
+  'frame: 564':
+    'Head: 0': center
+  'frame: 565':
+    'Head: 0': center
+  'frame: 566':
+    'Head: 0': center
+  'frame: 567':
+    'Head: 0': center
+  'frame: 568':
+    'Head: 0': center
+  'frame: 569':
+    'Head: 0': center
+  'frame: 570':
+    'Head: 0': center
+  'frame: 571':
+    'Head: 0': center
+  'frame: 572':
+    'Head: 0': center
+  'frame: 573':
+    'Head: 0': center
+  'frame: 574':
+    'Head: 0': center
+  'frame: 575':
+    'Head: 0': center
+  'frame: 576':
+    'Head: 0': center
+  'frame: 577':
+    'Head: 0': center
+  'frame: 578':
+    'Head: 0': center
+  'frame: 579':
+    'Head: 0': center
+  'frame: 580':
+    'Head: 0': center
+  'frame: 581':
+    'Head: 0': center
+  'frame: 582':
+    'Head: 0': center
+  'frame: 583':
+    'Head: 0': center
+  'frame: 584':
+    'Head: 0': center
+  'frame: 585':
+    'Head: 0': center
+  'frame: 586':
+    'Head: 0': center

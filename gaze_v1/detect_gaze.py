@@ -1,22 +1,16 @@
 import cv2
-import os
-import sys
-import time
 import torch
-import gaze_v1.utils
 from gaze_v1.utils import normalize_face, draw_gaze
-import argparse
-import traceback
 import numpy as np
-
 from PIL import Image
 from gaze_v1.models import gazenet
 from gaze_v1.detector import FaceDetector
 
 
 def get_side(x1, y1, x2, y2):
-    # print([x1, y1])
-    # print([x2, y2])
+    """
+    Треба доробити бо поки гавняно
+    """
     if abs(x1-x2) < 45 and abs(y1-y2) < 45:
         return "center"
     if abs(x1-x2) < 45 and y2 > y1:
@@ -67,9 +61,3 @@ def get_gaze_point(image):
                 display, dx, dy = draw_gaze(display, gaze_origin, gaze, color=(255, 0, 0), thickness=2)
                 direction = get_side(gaze_origin[0], gaze_origin[1], dx[0], dy[0])
                 return direction, cv2.cvtColor(display, cv2.COLOR_RGB2BGR)
-                # print(direction)
-                # cv2.imshow('Gaze Demo', cv2.cvtColor(display, cv2.COLOR_RGB2BGR))
-                # cv2.waitKey(0)
-
-
-# get_gaze_point("photos/9.png")
