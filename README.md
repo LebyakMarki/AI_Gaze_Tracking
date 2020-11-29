@@ -1,15 +1,18 @@
 # AI_Gaze_Tracking
  AI Course project
+ 
+Implementation of video processing, with face detection, gaze detection and providing analytics on achived data.
 
 Team:
 - Katya Desyk
 - Marki Lebyak
 
 To-Do:
-- add more simple gaze trackers
+- add one more Gaze tracker
+- fix previous Gaze tracker
+- refactor and clean up code
+- add more metrics and visualizations
 
-Reading:
-- https://www.danioved.com/blog/posts/presence/predicting-gaze-with-the-model/
-- https://colab.research.google.com/drive/11s5IQkI8H-kIn00Kg6Sqp-dD3RwsICdE
-- https://github.com/antoinelame/GazeTracking
-- https://medium.com/@stepanfilonov/tracking-your-eyes-with-python-3952e66194a6
+Used materials:
+1. https://github.com/glefundes/mobile-face-gaze.git
+2. https://github.com/code-cse/Face-Detection-SSD.git
