@@ -11,25 +11,16 @@ def get_side(x1, y1, x2, y2):
     """
     Треба доробити бо поки гавняно
     """
-    if abs(x1-x2) < 45 and abs(y1-y2) < 45:
-        return "center"
     if abs(x1-x2) < 45 and y2 > y1:
         return "down"
-    if abs(x1-x2) < 45 and y2 < y1:
+    elif abs(x1-x2) < 45 and y2 < y1:
         return "up"
-    if abs(y1-y2) < 45 and x2 < x1:
+    elif abs(y1-y2) < 45 and x2 < x1:
         return "right"
-    if abs(y1-y2) < 45 and x2 > x1:
+    elif abs(y1-y2) < 45 and x2 > x1:
         return "left"
-    if y2 > y1 and x2 < x1:
-        return "down-right"
-    if y2 > y1 and x2 > x1:
-        return "down-left"
-    if y2 < y1 and x2 < x1:
-        return "up-right"
-    if y2 < y1 and x2 > x1:
-        return "up-left"
-    return "none"
+    else:
+        return "center"
 
 
 def get_gaze_point(image):
@@ -60,4 +51,7 @@ def get_gaze_point(image):
                 display = cv2.circle(display, gaze_origin, 3, (0, 255, 0), -1)
                 display, dx, dy = draw_gaze(display, gaze_origin, gaze, color=(255, 0, 0), thickness=2)
                 direction = get_side(gaze_origin[0], gaze_origin[1], dx[0], dy[0])
-                return direction, cv2.cvtColor(display, cv2.COLOR_RGB2BGR)
+                origin_coordinates = [gaze_origin[0], gaze_origin[1]]
+                destination_coordinates = [np.int(dx[0]), np.int(dy[0])]
+
+                return direction, cv2.cvtColor(display, cv2.COLOR_RGB2BGR), origin_coordinates, destination_coordinates

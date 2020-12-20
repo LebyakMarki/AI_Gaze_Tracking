@@ -14,6 +14,6 @@ if __name__ == "__main__":
     pipeline_structure.write_to_yaml()
 
     # pipeline_structure.show_faces(30)
-    # pipeline_structure.show_gaze_detection(50)
+    # pipeline_structure.show_gaze_detection(250)
 else:
     print("Sorry :(")

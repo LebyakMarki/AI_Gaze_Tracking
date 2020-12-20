@@ -22,4 +22,6 @@ class Head(object):
     w: float
     h: float
     direction: str
+    origin_xy: list
+    destination_xy: list
     direction_image: None

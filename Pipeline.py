@@ -11,7 +11,7 @@ class Pipeline:
     number_of_frames = 0
     number_of_faces = 0
 
-    def __init__(self, filename="test_videos/one_person_many_directions.mp4"):
+    def __init__(self, filename="test_videos/one_person_all.mp4"):
         self.filename = filename
 
     def cut_into_frames(self):
@@ -72,7 +72,7 @@ class Pipeline:
                     frame.one_face_detected = True
                     bounding_box = detections[0, 0, i, 3:7] * np.array([origin_w, origin_h, origin_w, origin_h])
                     x_start, y_start, x_end, y_end = bounding_box.astype('int')
-                    new_head = Head(x_start, y_start, x_end - x_start, y_end - y_start, "none", None)
+                    new_head = Head(x_start, y_start, x_end - x_start, y_end - y_start, "none", [], [], None)
                     heads.append(new_head)
                     self.number_of_faces += 1
             frame.heads = heads
@@ -82,8 +82,10 @@ class Pipeline:
         for index, frame in enumerate(self.video_structure):
             for index2, head in enumerate(frame.heads):
                 head_image = frame.image[head.y:head.y + head.h, head.x:head.x + head.w]
-                direction, direction_image = get_gaze_point(head_image)
+                direction, direction_image, origin_xy, destination_xy = get_gaze_point(head_image)
                 head.direction = direction
+                head.origin_xy = origin_xy
+                head.destination_xy = destination_xy
                 head.direction_image = direction_image
 
     def show_faces(self, wait_key=10):
@@ -127,6 +129,8 @@ class Pipeline:
             for index2, head in enumerate(frame.heads):
                 string_head_name = "Head: " + str(index2)
                 all_heads_directions[string_head_name] = head.direction
+                all_heads_directions["Origin x,y"] = head.origin_xy
+                all_heads_directions["Destination x,y"] = head.destination_xy
             all_results[string_name] = all_heads_directions
         data["faces and directions"] = all_results
         with open("result.yaml", "w") as fh:
