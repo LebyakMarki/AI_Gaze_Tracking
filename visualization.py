@@ -1,9 +1,11 @@
 import yaml
 from dataclasses import dataclass
-import matplotlib.pyplot as plt; plt.rcdefaults()
+import matplotlib.pyplot as plt
 from matplotlib import cm
 from math import log10
 import numpy as np
+import seaborn as sns
+plt.rcdefaults()
 
 
 @dataclass
@@ -22,6 +24,7 @@ class Metrics(object):
 
 
 def load_from_yaml(metrics, filename="result.yaml"):
+    print("> Started loading from yaml file")
     with open(filename, 'r') as stream:
         try:
             loaded_data = yaml.safe_load(stream)
@@ -31,23 +34,25 @@ def load_from_yaml(metrics, filename="result.yaml"):
 
 
 def fill_metrics_structure(data, metrics):
+    print("> Started feeling structure with yaml data for graphs")
     points_array = []
     metrics.n_frames = data["number of frames"]
     metrics.n_heads = data["number of faces"]
     first_dict = data["faces and directions"]
     for key1, value1 in first_dict.items():
-        dict_items = list(value1.values())
-        if dict_items[0] == "center":
-            metrics.center_side += 1
-        elif dict_items[0] == "left":
-            metrics.left_side += 1
-        elif dict_items[0] == "right":
-            metrics.right_side += 1
-        elif dict_items[0] == "up":
-            metrics.up_side += 1
-        elif dict_items[0] == "down":
-            metrics.down_side += 1
-        points_array.append([dict_items[2][0] - dict_items[1][0], dict_items[2][1] - dict_items[1][1]])
+        for key2, value2 in value1.items():
+            dict_items = list(value2.values())
+            if dict_items[0] == "center":
+                metrics.center_side += 1
+            elif dict_items[0] == "left":
+                metrics.left_side += 1
+            elif dict_items[0] == "right":
+                metrics.right_side += 1
+            elif dict_items[0] == "up":
+                metrics.up_side += 1
+            elif dict_items[0] == "down":
+                metrics.down_side += 1
+            points_array.append([dict_items[2][0] - dict_items[1][0], dict_items[2][1] - dict_items[1][1]])
     metrics.gaze_points = points_array
     return 0
 
@@ -94,16 +99,24 @@ def bar_plots_attention(metrics):
     plt.show()
 
 
-def heat_map():
+def heat_map(metrics):
+    array_x = []
+    array_y = []
+    for pair in metrics.gaze_points:
+        array_x.append(pair[0])
+        array_y.append(pair[1])
+
+    sns.jointplot(x=array_x, y=array_y, kind='hex')
+    plt.show()
     return 0
 
 
 if __name__ == "__main__":
     metrics_structure = Metrics([])
     load_from_yaml(metrics_structure)
-    # bar_plots_original_count(metrics_structure)
-    # bar_plots_round_count(metrics_structure)
-    # bar_plots_attention(metrics_structure)
-    print(metrics_structure.gaze_points)
+    bar_plots_original_count(metrics_structure)
+    bar_plots_round_count(metrics_structure)
+    bar_plots_attention(metrics_structure)
+    heat_map(metrics_structure)
 else:
     print("Sorry :(")

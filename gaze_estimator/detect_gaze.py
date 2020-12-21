@@ -1,32 +1,32 @@
 import cv2
 import torch
-from gaze_v1.utils import normalize_face, draw_gaze
 import numpy as np
 from PIL import Image
-from gaze_v1.models import gazenet
-from gaze_v1.detector import FaceDetector
+from gaze_estimator.utils import normalize_face, draw_gaze
+from gaze_estimator.models import gazenet
+from gaze_estimator.detector import FaceDetector
 
 
 def get_side(x1, y1, x2, y2):
-    """
-    Треба доробити бо поки гавняно
-    """
-    if abs(x1-x2) < 45 and y2 > y1:
-        return "down"
-    elif abs(x1-x2) < 45 and y2 < y1:
-        return "up"
-    elif abs(y1-y2) < 45 and x2 < x1:
-        return "right"
-    elif abs(y1-y2) < 45 and x2 > x1:
-        return "left"
-    else:
+    max_center_distance = 40
+    if abs(x1 - x2) <= max_center_distance and abs(y1 - y2) <= max_center_distance:
         return "center"
+    elif -max_center_distance <= (x2 - x1) <= max_center_distance < abs(y1 - y2):
+        if y1 <= y2:
+            return "down"
+        else:
+            return "up"
+    else:
+        if x1 >= x2:
+            return "right"
+        else:
+            return "left"
 
 
 def get_gaze_point(image):
     face_detector = FaceDetector(device="cpu")
     model = gazenet.GazeNet("cpu")
-    state_dict = torch.load("gaze_v1/models/weights/gazenet.pth", map_location="cpu")
+    state_dict = torch.load("gaze_estimator/models/weights/gazenet.pth", map_location="cpu")
     model.load_state_dict(state_dict)
     model.eval()
 
@@ -55,3 +55,4 @@ def get_gaze_point(image):
                 destination_coordinates = [np.int(dx[0]), np.int(dy[0])]
 
                 return direction, cv2.cvtColor(display, cv2.COLOR_RGB2BGR), origin_coordinates, destination_coordinates
+    return None, None, None, None

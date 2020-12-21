@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from Models import Head, Frame
 from mtcnn.mtcnn import MTCNN
-from gaze_v1.detect_gaze import get_gaze_point
+from gaze_estimator.detect_gaze import get_gaze_point
 import yaml
 
 
@@ -11,11 +11,12 @@ class Pipeline:
     number_of_frames = 0
     number_of_faces = 0
 
-    def __init__(self, filename="test_videos/one_person_all.mp4"):
+    def __init__(self, filename="test_videos/one_person_up_down.mp4"):
         self.filename = filename
 
     def cut_into_frames(self):
         # Use this function to get frames form input video
+        print("> Started cutting video to frames")
         video_capture = cv2.VideoCapture(self.filename)
         success, image = video_capture.read()
         while success:
@@ -26,6 +27,7 @@ class Pipeline:
                 self.number_of_frames += 1
 
     def simple_opencv_facedetection(self, path_to_cascade):
+        print("> Started face detection with opencv")
         for index, frame in enumerate(self.video_structure):
             image = frame.image
             classifier = cv2.CascadeClassifier(path_to_cascade)
@@ -42,6 +44,7 @@ class Pipeline:
             frame.heads = heads
 
     def mtcnn_facedetection(self):
+        print("> Started face detection with MTCNN")
         detector = MTCNN()
         for index, frame in enumerate(self.video_structure):
             image = frame.image
@@ -57,6 +60,7 @@ class Pipeline:
             frame.heads = heads
 
     def ssd_facedetection(self):
+        print("> Started face detection with SSD")
         detector = cv2.dnn.readNetFromCaffe("SSDetector/deploy.prototxt.txt",
                                             caffeModel="SSDetector/res10_300x300_ssd_iter_140000.caffemodel")
         for index, frame in enumerate(self.video_structure):
@@ -83,12 +87,16 @@ class Pipeline:
             for index2, head in enumerate(frame.heads):
                 head_image = frame.image[head.y:head.y + head.h, head.x:head.x + head.w]
                 direction, direction_image, origin_xy, destination_xy = get_gaze_point(head_image)
+                if direction is None and direction_image is None:
+                    frame.heads.remove(head)
+                    continue
                 head.direction = direction
                 head.origin_xy = origin_xy
                 head.destination_xy = destination_xy
                 head.direction_image = direction_image
 
     def show_faces(self, wait_key=10):
+        print("> Started showing detected faces")
         for index, frame in enumerate(self.video_structure):
             frame_name = "Frame " + str(index)
             if frame.one_face_detected:
@@ -98,6 +106,7 @@ class Pipeline:
                     cv2.waitKey(wait_key)
 
     def show_frames(self, wait_key=10):
+        print("> Started showing frames")
         # Created for debugging and testing
         for index, frame in enumerate(self.video_structure):
             frame_name = "Frame " + str(index)
@@ -117,6 +126,7 @@ class Pipeline:
                 cv2.waitKey(wait_key)
 
     def write_to_yaml(self):
+        print("> Started writing data to yaml")
         data = {
             "number of frames": self.number_of_frames,
             "number of faces": self.number_of_faces,
@@ -126,12 +136,15 @@ class Pipeline:
         for index, frame in enumerate(self.video_structure):
             string_name = "frame: " + str(index)
             all_heads_directions = {}
-            for index2, head in enumerate(frame.heads):
-                string_head_name = "Head: " + str(index2)
-                all_heads_directions[string_head_name] = head.direction
-                all_heads_directions["Origin x,y"] = head.origin_xy
-                all_heads_directions["Destination x,y"] = head.destination_xy
-            all_results[string_name] = all_heads_directions
+            if not frame.heads:
+                continue
+            else:
+                for index2, head in enumerate(frame.heads):
+                    string_head_name = "Head: " + str(index2)
+                    head_info = {"Direction": head.direction, "Origin x,y": head.origin_xy,
+                                 "Destination x,y": head.destination_xy}
+                    all_heads_directions[string_head_name] = head_info
+                all_results[string_name] = all_heads_directions
         data["faces and directions"] = all_results
         with open("result.yaml", "w") as fh:
             yaml.dump(data, fh, sort_keys=False)

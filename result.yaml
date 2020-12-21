@@ -1,1675 +1,912 @@
-number of frames: 209
-number of faces: 209
+number of frames: 101
+number of faces: 101
 faces and directions:
   'frame: 0':
-    'Head: 0': down
-    Origin x,y:
-    - 195
-    - 164
-    Destination x,y:
-    - 230
-    - 192
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 169
+      - 145
+      Destination x,y:
+      - 185
+      - 183
   'frame: 1':
-    'Head: 0': down
-    Origin x,y:
-    - 194
-    - 163
-    Destination x,y:
-    - 230
-    - 199
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 169
+      - 144
+      Destination x,y:
+      - 191
+      - 184
   'frame: 2':
-    'Head: 0': down
-    Origin x,y:
-    - 193
-    - 164
-    Destination x,y:
-    - 224
-    - 190
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 171
+      - 147
+      Destination x,y:
+      - 195
+      - 169
   'frame: 3':
-    'Head: 0': down
-    Origin x,y:
-    - 192
-    - 163
-    Destination x,y:
-    - 223
-    - 205
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 169
+      - 146
+      Destination x,y:
+      - 191
+      - 165
   'frame: 4':
-    'Head: 0': down
-    Origin x,y:
-    - 191
-    - 164
-    Destination x,y:
-    - 220
-    - 200
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 165
+      - 141
+      Destination x,y:
+      - 165
+      - 153
   'frame: 5':
-    'Head: 0': down
-    Origin x,y:
-    - 193
-    - 163
-    Destination x,y:
-    - 222
-    - 193
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 168
+      - 142
+      Destination x,y:
+      - 189
+      - 150
   'frame: 6':
-    'Head: 0': down
-    Origin x,y:
-    - 193
-    - 163
-    Destination x,y:
-    - 224
-    - 192
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 161
+      - 139
+      Destination x,y:
+      - 196
+      - 141
   'frame: 7':
-    'Head: 0': down
-    Origin x,y:
-    - 193
-    - 163
-    Destination x,y:
-    - 223
-    - 190
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 163
+      - 138
+      Destination x,y:
+      - 190
+      - 139
   'frame: 8':
-    'Head: 0': down
-    Origin x,y:
-    - 192
-    - 163
-    Destination x,y:
-    - 224
-    - 206
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 162
+      - 133
+      Destination x,y:
+      - 183
+      - 136
   'frame: 9':
-    'Head: 0': down
-    Origin x,y:
-    - 191
-    - 163
-    Destination x,y:
-    - 222
-    - 202
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 161
+      - 129
+      Destination x,y:
+      - 163
+      - 122
   'frame: 10':
-    'Head: 0': down
-    Origin x,y:
-    - 191
-    - 162
-    Destination x,y:
-    - 220
-    - 202
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 160
+      - 130
+      Destination x,y:
+      - 166
+      - 123
   'frame: 11':
-    'Head: 0': down
-    Origin x,y:
-    - 193
-    - 163
-    Destination x,y:
-    - 227
-    - 196
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 160
+      - 121
+      Destination x,y:
+      - 166
+      - 124
   'frame: 12':
-    'Head: 0': down
-    Origin x,y:
-    - 192
-    - 164
-    Destination x,y:
-    - 223
-    - 200
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 170
+      - 120
+      Destination x,y:
+      - 191
+      - 111
   'frame: 13':
-    'Head: 0': down
-    Origin x,y:
-    - 192
-    - 164
-    Destination x,y:
-    - 224
-    - 203
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 164
+      - 117
+      Destination x,y:
+      - 199
+      - 105
   'frame: 14':
-    'Head: 0': down
-    Origin x,y:
-    - 191
-    - 163
-    Destination x,y:
-    - 223
-    - 200
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 165
+      - 115
+      Destination x,y:
+      - 199
+      - 101
   'frame: 15':
-    'Head: 0': down
-    Origin x,y:
-    - 192
-    - 163
-    Destination x,y:
-    - 224
-    - 200
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 149
+      - 114
+      Destination x,y:
+      - 122
+      - 96
   'frame: 16':
-    'Head: 0': down
-    Origin x,y:
-    - 192
-    - 162
-    Destination x,y:
-    - 225
-    - 194
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 167
+      - 112
+      Destination x,y:
+      - 193
+      - 100
   'frame: 17':
-    'Head: 0': down
-    Origin x,y:
-    - 194
-    - 164
-    Destination x,y:
-    - 217
-    - 202
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 155
+      - 111
+      Destination x,y:
+      - 146
+      - 98
   'frame: 18':
-    'Head: 0': down
-    Origin x,y:
-    - 191
-    - 165
-    Destination x,y:
-    - 190
-    - 215
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 154
+      - 109
+      Destination x,y:
+      - 153
+      - 95
   'frame: 19':
-    'Head: 0': center
-    Origin x,y:
-    - 171
-    - 162
-    Destination x,y:
-    - 122
-    - 214
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 166
+      - 104
+      Destination x,y:
+      - 183
+      - 96
   'frame: 20':
-    'Head: 0': right
-    Origin x,y:
-    - 160
-    - 167
-    Destination x,y:
-    - 89
-    - 205
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 159
+      - 106
+      Destination x,y:
+      - 154
+      - 103
   'frame: 21':
-    'Head: 0': center
-    Origin x,y:
-    - 170
-    - 156
-    Destination x,y:
-    - 121
-    - 209
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 153
+      - 104
+      Destination x,y:
+      - 142
+      - 93
   'frame: 22':
-    'Head: 0': center
-    Origin x,y:
-    - 162
-    - 153
-    Destination x,y:
-    - 111
-    - 208
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 160
+      - 101
+      Destination x,y:
+      - 165
+      - 96
   'frame: 23':
-    'Head: 0': center
-    Origin x,y:
-    - 164
-    - 162
-    Destination x,y:
-    - 102
-    - 214
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 165
+      - 105
+      Destination x,y:
+      - 199
+      - 94
   'frame: 24':
-    'Head: 0': center
-    Origin x,y:
-    - 160
-    - 161
-    Destination x,y:
-    - 102
-    - 207
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 164
+      - 105
+      Destination x,y:
+      - 174
+      - 98
   'frame: 25':
-    'Head: 0': center
-    Origin x,y:
-    - 160
-    - 160
-    Destination x,y:
-    - 99
-    - 205
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 156
+      - 103
+      Destination x,y:
+      - 169
+      - 98
   'frame: 26':
-    'Head: 0': center
-    Origin x,y:
-    - 159
-    - 162
-    Destination x,y:
-    - 98
-    - 213
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 159
+      - 101
+      Destination x,y:
+      - 180
+      - 95
   'frame: 27':
-    'Head: 0': center
-    Origin x,y:
-    - 157
-    - 163
-    Destination x,y:
-    - 95
-    - 212
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 158
+      - 104
+      Destination x,y:
+      - 182
+      - 99
   'frame: 28':
-    'Head: 0': center
-    Origin x,y:
-    - 157
-    - 161
-    Destination x,y:
-    - 100
-    - 207
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 159
+      - 103
+      Destination x,y:
+      - 172
+      - 90
   'frame: 29':
-    'Head: 0': right
-    Origin x,y:
-    - 158
-    - 163
-    Destination x,y:
-    - 102
-    - 206
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 158
+      - 100
+      Destination x,y:
+      - 174
+      - 94
   'frame: 30':
-    'Head: 0': right
-    Origin x,y:
-    - 156
-    - 163
-    Destination x,y:
-    - 99
-    - 198
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 158
+      - 101
+      Destination x,y:
+      - 169
+      - 98
   'frame: 31':
-    'Head: 0': right
-    Origin x,y:
-    - 156
-    - 165
-    Destination x,y:
-    - 97
-    - 204
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 127
+      - 105
+      Destination x,y:
+      - 119
+      - 96
   'frame: 32':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 165
-    Destination x,y:
-    - 103
-    - 198
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 129
+      - 104
+      Destination x,y:
+      - 116
+      - 93
   'frame: 33':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 166
-    Destination x,y:
-    - 102
-    - 194
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 157
+      - 100
+      Destination x,y:
+      - 180
+      - 91
   'frame: 34':
-    'Head: 0': right
-    Origin x,y:
-    - 158
-    - 166
-    Destination x,y:
-    - 105
-    - 191
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 129
+      - 105
+      Destination x,y:
+      - 115
+      - 93
   'frame: 35':
-    'Head: 0': right
-    Origin x,y:
-    - 158
-    - 165
-    Destination x,y:
-    - 108
-    - 191
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 154
+      - 98
+      Destination x,y:
+      - 146
+      - 95
   'frame: 36':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 162
-    Destination x,y:
-    - 107
-    - 198
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 129
+      - 103
+      Destination x,y:
+      - 117
+      - 92
   'frame: 37':
-    'Head: 0': right
-    Origin x,y:
-    - 158
-    - 165
-    Destination x,y:
-    - 104
-    - 205
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 127
+      - 103
+      Destination x,y:
+      - 116
+      - 93
   'frame: 38':
-    'Head: 0': right
-    Origin x,y:
-    - 158
-    - 162
-    Destination x,y:
-    - 101
-    - 194
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 127
+      - 103
+      Destination x,y:
+      - 110
+      - 93
   'frame: 39':
-    'Head: 0': right
-    Origin x,y:
-    - 158
-    - 162
-    Destination x,y:
-    - 105
-    - 191
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 127
+      - 104
+      Destination x,y:
+      - 120
+      - 90
   'frame: 40':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 161
-    Destination x,y:
-    - 105
-    - 195
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 129
+      - 105
+      Destination x,y:
+      - 113
+      - 93
   'frame: 41':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 162
-    Destination x,y:
-    - 105
-    - 196
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 157
+      - 100
+      Destination x,y:
+      - 181
+      - 93
   'frame: 42':
-    'Head: 0': right
-    Origin x,y:
-    - 156
-    - 162
-    Destination x,y:
-    - 104
-    - 196
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 127
+      - 102
+      Destination x,y:
+      - 114
+      - 91
   'frame: 43':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 163
-    Destination x,y:
-    - 101
-    - 199
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 126
+      - 102
+      Destination x,y:
+      - 106
+      - 95
   'frame: 44':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 165
-    Destination x,y:
-    - 102
-    - 197
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 126
+      - 101
+      Destination x,y:
+      - 110
+      - 93
   'frame: 45':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 164
-    Destination x,y:
-    - 98
-    - 195
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 157
+      - 99
+      Destination x,y:
+      - 175
+      - 90
   'frame: 46':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 162
-    Destination x,y:
-    - 102
-    - 194
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 124
+      - 102
+      Destination x,y:
+      - 110
+      - 93
   'frame: 47':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 163
-    Destination x,y:
-    - 99
-    - 202
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 157
+      - 101
+      Destination x,y:
+      - 170
+      - 98
   'frame: 48':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 164
-    Destination x,y:
-    - 102
-    - 196
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 125
+      - 101
+      Destination x,y:
+      - 113
+      - 92
   'frame: 49':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 164
-    Destination x,y:
-    - 97
-    - 201
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 156
+      - 100
+      Destination x,y:
+      - 166
+      - 94
   'frame: 50':
-    'Head: 0': right
-    Origin x,y:
-    - 158
-    - 165
-    Destination x,y:
-    - 102
-    - 197
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 158
+      - 100
+      Destination x,y:
+      - 178
+      - 94
   'frame: 51':
-    'Head: 0': right
-    Origin x,y:
-    - 158
-    - 165
-    Destination x,y:
-    - 103
-    - 198
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 158
+      - 102
+      Destination x,y:
+      - 174
+      - 97
   'frame: 52':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 165
-    Destination x,y:
-    - 102
-    - 194
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 158
+      - 102
+      Destination x,y:
+      - 179
+      - 93
   'frame: 53':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 164
-    Destination x,y:
-    - 103
-    - 200
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 158
+      - 104
+      Destination x,y:
+      - 171
+      - 94
   'frame: 54':
-    'Head: 0': right
-    Origin x,y:
-    - 156
-    - 162
-    Destination x,y:
-    - 100
-    - 198
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 156
+      - 103
+      Destination x,y:
+      - 163
+      - 99
   'frame: 55':
-    'Head: 0': right
-    Origin x,y:
-    - 158
-    - 166
-    Destination x,y:
-    - 106
-    - 201
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 159
+      - 101
+      Destination x,y:
+      - 178
+      - 103
   'frame: 56':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 163
-    Destination x,y:
-    - 103
-    - 198
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 160
+      - 100
+      Destination x,y:
+      - 187
+      - 106
   'frame: 57':
-    'Head: 0': right
-    Origin x,y:
-    - 158
-    - 163
-    Destination x,y:
-    - 105
-    - 189
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 164
+      - 108
+      Destination x,y:
+      - 175
+      - 112
   'frame: 58':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 162
-    Destination x,y:
-    - 101
-    - 192
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 153
+      - 113
+      Destination x,y:
+      - 154
+      - 111
   'frame: 59':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 162
-    Destination x,y:
-    - 99
-    - 195
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 154
+      - 112
+      Destination x,y:
+      - 161
+      - 112
   'frame: 60':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 162
-    Destination x,y:
-    - 102
-    - 200
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 160
+      - 113
+      Destination x,y:
+      - 190
+      - 126
   'frame: 61':
-    'Head: 0': right
-    Origin x,y:
-    - 157
-    - 163
-    Destination x,y:
-    - 97
-    - 190
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 160
+      - 120
+      Destination x,y:
+      - 152
+      - 150
   'frame: 62':
-    'Head: 0': right
-    Origin x,y:
-    - 159
-    - 162
-    Destination x,y:
-    - 107
-    - 191
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 161
+      - 128
+      Destination x,y:
+      - 186
+      - 145
   'frame: 63':
-    'Head: 0': right
-    Origin x,y:
-    - 160
-    - 161
-    Destination x,y:
-    - 112
-    - 202
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 126
+      - 124
+      Destination x,y:
+      - 110
+      - 159
   'frame: 64':
-    'Head: 0': down
-    Origin x,y:
-    - 163
-    - 159
-    Destination x,y:
-    - 138
-    - 209
+    'Head: 0':
+      Direction: center
+      Origin x,y:
+      - 152
+      - 131
+      Destination x,y:
+      - 151
+      - 155
   'frame: 65':
-    'Head: 0': down
-    Origin x,y:
-    - 165
-    - 161
-    Destination x,y:
-    - 168
-    - 212
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 155
+      - 128
+      Destination x,y:
+      - 158
+      - 190
   'frame: 66':
-    'Head: 0': down
-    Origin x,y:
-    - 167
-    - 161
-    Destination x,y:
-    - 181
-    - 203
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 156
+      - 139
+      Destination x,y:
+      - 129
+      - 193
   'frame: 67':
-    'Head: 0': down
-    Origin x,y:
-    - 170
-    - 162
-    Destination x,y:
-    - 200
-    - 189
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 163
+      - 136
+      Destination x,y:
+      - 173
+      - 198
   'frame: 68':
-    'Head: 0': down
-    Origin x,y:
-    - 171
-    - 161
-    Destination x,y:
-    - 203
-    - 203
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 141
+      - 140
+      Destination x,y:
+      - 150
+      - 205
   'frame: 69':
-    'Head: 0': down
-    Origin x,y:
-    - 170
-    - 160
-    Destination x,y:
-    - 209
-    - 197
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 145
+      - 144
+      Destination x,y:
+      - 141
+      - 206
   'frame: 70':
-    'Head: 0': center
-    Origin x,y:
-    - 176
-    - 153
-    Destination x,y:
-    - 232
-    - 204
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 148
+      - 145
+      Destination x,y:
+      - 143
+      - 209
   'frame: 71':
-    'Head: 0': center
-    Origin x,y:
-    - 182
-    - 161
-    Destination x,y:
-    - 236
-    - 215
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 163
+      - 143
+      Destination x,y:
+      - 166
+      - 214
   'frame: 72':
-    'Head: 0': left
-    Origin x,y:
-    - 192
-    - 165
-    Destination x,y:
-    - 241
-    - 196
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 142
+      - 143
+      Destination x,y:
+      - 153
+      - 214
   'frame: 73':
-    'Head: 0': center
-    Origin x,y:
-    - 185
-    - 171
-    Destination x,y:
-    - 237
-    - 226
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 139
+      - 140
+      Destination x,y:
+      - 153
+      - 215
   'frame: 74':
-    'Head: 0': center
-    Origin x,y:
-    - 183
-    - 158
-    Destination x,y:
-    - 230
-    - 207
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 153
+      - 151
+      Destination x,y:
+      - 152
+      - 232
   'frame: 75':
-    'Head: 0': center
-    Origin x,y:
-    - 200
-    - 162
-    Destination x,y:
-    - 253
-    - 212
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 148
+      - 150
+      Destination x,y:
+      - 151
+      - 225
   'frame: 76':
-    'Head: 0': left
-    Origin x,y:
-    - 180
-    - 162
-    Destination x,y:
-    - 230
-    - 205
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 147
+      - 154
+      Destination x,y:
+      - 149
+      - 231
   'frame: 77':
-    'Head: 0': down
-    Origin x,y:
-    - 178
-    - 165
-    Destination x,y:
-    - 222
-    - 209
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 155
+      - 157
+      Destination x,y:
+      - 143
+      - 238
   'frame: 78':
-    'Head: 0': down
-    Origin x,y:
-    - 174
-    - 167
-    Destination x,y:
-    - 187
-    - 210
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 163
+      - 155
+      Destination x,y:
+      - 173
+      - 243
   'frame: 79':
-    'Head: 0': down
-    Origin x,y:
-    - 178
-    - 162
-    Destination x,y:
-    - 217
-    - 204
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 154
+      - 157
+      Destination x,y:
+      - 140
+      - 237
   'frame: 80':
-    'Head: 0': down
-    Origin x,y:
-    - 179
-    - 161
-    Destination x,y:
-    - 204
-    - 208
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 140
+      - 147
+      Destination x,y:
+      - 144
+      - 223
   'frame: 81':
-    'Head: 0': down
-    Origin x,y:
-    - 178
-    - 164
-    Destination x,y:
-    - 206
-    - 215
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 141
+      - 147
+      Destination x,y:
+      - 150
+      - 221
   'frame: 82':
-    'Head: 0': down
-    Origin x,y:
-    - 179
-    - 162
-    Destination x,y:
-    - 193
-    - 214
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 153
+      - 151
+      Destination x,y:
+      - 154
+      - 227
   'frame: 83':
-    'Head: 0': down
-    Origin x,y:
-    - 179
-    - 164
-    Destination x,y:
-    - 190
-    - 219
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 152
+      - 152
+      Destination x,y:
+      - 167
+      - 232
   'frame: 84':
-    'Head: 0': center
-    Origin x,y:
-    - 188
-    - 166
-    Destination x,y:
-    - 241
-    - 220
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 151
+      - 151
+      Destination x,y:
+      - 172
+      - 230
   'frame: 85':
-    'Head: 0': center
-    Origin x,y:
-    - 190
-    - 166
-    Destination x,y:
-    - 255
-    - 215
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 152
+      - 151
+      Destination x,y:
+      - 178
+      - 230
   'frame: 86':
-    'Head: 0': center
-    Origin x,y:
-    - 189
-    - 167
-    Destination x,y:
-    - 240
-    - 216
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 152
+      - 154
+      Destination x,y:
+      - 168
+      - 232
   'frame: 87':
-    'Head: 0': down
-    Origin x,y:
-    - 187
-    - 166
-    Destination x,y:
-    - 227
-    - 216
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 164
+      - 150
+      Destination x,y:
+      - 156
+      - 226
   'frame: 88':
-    'Head: 0': down
-    Origin x,y:
-    - 188
-    - 166
-    Destination x,y:
-    - 232
-    - 208
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 166
+      - 151
+      Destination x,y:
+      - 169
+      - 230
   'frame: 89':
-    'Head: 0': center
-    Origin x,y:
-    - 206
-    - 157
-    Destination x,y:
-    - 266
-    - 214
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 166
+      - 149
+      Destination x,y:
+      - 157
+      - 225
   'frame: 90':
-    'Head: 0': center
-    Origin x,y:
-    - 206
-    - 157
-    Destination x,y:
-    - 267
-    - 215
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 167
+      - 148
+      Destination x,y:
+      - 161
+      - 220
   'frame: 91':
-    'Head: 0': center
-    Origin x,y:
-    - 207
-    - 157
-    Destination x,y:
-    - 271
-    - 217
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 155
+      - 159
+      Destination x,y:
+      - 165
+      - 246
   'frame: 92':
-    'Head: 0': center
-    Origin x,y:
-    - 207
-    - 158
-    Destination x,y:
-    - 270
-    - 216
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 153
+      - 159
+      Destination x,y:
+      - 164
+      - 243
   'frame: 93':
-    'Head: 0': center
-    Origin x,y:
-    - 206
-    - 156
-    Destination x,y:
-    - 268
-    - 213
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 155
+      - 161
+      Destination x,y:
+      - 163
+      - 251
   'frame: 94':
-    'Head: 0': center
-    Origin x,y:
-    - 208
-    - 157
-    Destination x,y:
-    - 268
-    - 217
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 154
+      - 162
+      Destination x,y:
+      - 168
+      - 248
   'frame: 95':
-    'Head: 0': center
-    Origin x,y:
-    - 206
-    - 157
-    Destination x,y:
-    - 264
-    - 217
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 155
+      - 160
+      Destination x,y:
+      - 172
+      - 242
   'frame: 96':
-    'Head: 0': left
-    Origin x,y:
-    - 188
-    - 167
-    Destination x,y:
-    - 243
-    - 208
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 155
+      - 160
+      Destination x,y:
+      - 170
+      - 248
   'frame: 97':
-    'Head: 0': left
-    Origin x,y:
-    - 189
-    - 168
-    Destination x,y:
-    - 238
-    - 208
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 156
+      - 161
+      Destination x,y:
+      - 173
+      - 248
   'frame: 98':
-    'Head: 0': down
-    Origin x,y:
-    - 183
-    - 165
-    Destination x,y:
-    - 196
-    - 211
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 153
+      - 162
+      Destination x,y:
+      - 172
+      - 245
   'frame: 99':
-    'Head: 0': down
-    Origin x,y:
-    - 184
-    - 165
-    Destination x,y:
-    - 199
-    - 211
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 154
+      - 162
+      Destination x,y:
+      - 174
+      - 243
   'frame: 100':
-    'Head: 0': left
-    Origin x,y:
-    - 189
-    - 167
-    Destination x,y:
-    - 241
-    - 211
-  'frame: 101':
-    'Head: 0': left
-    Origin x,y:
-    - 190
-    - 168
-    Destination x,y:
-    - 238
-    - 210
-  'frame: 102':
-    'Head: 0': down
-    Origin x,y:
-    - 184
-    - 166
-    Destination x,y:
-    - 205
-    - 211
-  'frame: 103':
-    'Head: 0': down
-    Origin x,y:
-    - 183
-    - 162
-    Destination x,y:
-    - 203
-    - 212
-  'frame: 104':
-    'Head: 0': down
-    Origin x,y:
-    - 185
-    - 163
-    Destination x,y:
-    - 228
-    - 205
-  'frame: 105':
-    'Head: 0': down
-    Origin x,y:
-    - 184
-    - 163
-    Destination x,y:
-    - 219
-    - 185
-  'frame: 106':
-    'Head: 0': down
-    Origin x,y:
-    - 184
-    - 162
-    Destination x,y:
-    - 227
-    - 168
-  'frame: 107':
-    'Head: 0': down
-    Origin x,y:
-    - 182
-    - 162
-    Destination x,y:
-    - 222
-    - 164
-  'frame: 108':
-    'Head: 0': left
-    Origin x,y:
-    - 211
-    - 155
-    Destination x,y:
-    - 277
-    - 154
-  'frame: 109':
-    'Head: 0': up
-    Origin x,y:
-    - 177
-    - 162
-    Destination x,y:
-    - 193
-    - 153
-  'frame: 110':
-    'Head: 0': up
-    Origin x,y:
-    - 181
-    - 157
-    Destination x,y:
-    - 215
-    - 156
-  'frame: 111':
-    'Head: 0': left
-    Origin x,y:
-    - 183
-    - 153
-    Destination x,y:
-    - 230
-    - 155
-  'frame: 112':
-    'Head: 0': down
-    Origin x,y:
-    - 184
-    - 149
-    Destination x,y:
-    - 211
-    - 151
-  'frame: 113':
-    'Head: 0': up
-    Origin x,y:
-    - 179
-    - 148
-    Destination x,y:
-    - 194
-    - 144
-  'frame: 114':
-    'Head: 0': up
-    Origin x,y:
-    - 170
-    - 146
-    Destination x,y:
-    - 175
-    - 141
-  'frame: 115':
-    'Head: 0': up
-    Origin x,y:
-    - 174
-    - 146
-    Destination x,y:
-    - 189
-    - 140
-  'frame: 116':
-    'Head: 0': down
-    Origin x,y:
-    - 186
-    - 140
-    Destination x,y:
-    - 219
-    - 144
-  'frame: 117':
-    'Head: 0': down
-    Origin x,y:
-    - 179
-    - 135
-    Destination x,y:
-    - 202
-    - 138
-  'frame: 118':
-    'Head: 0': up
-    Origin x,y:
-    - 195
-    - 136
-    Destination x,y:
-    - 224
-    - 130
-  'frame: 119':
-    'Head: 0': down
-    Origin x,y:
-    - 184
-    - 132
-    Destination x,y:
-    - 180
-    - 134
-  'frame: 120':
-    'Head: 0': up
-    Origin x,y:
-    - 171
-    - 135
-    Destination x,y:
-    - 173
-    - 123
-  'frame: 121':
-    'Head: 0': up
-    Origin x,y:
-    - 186
-    - 120
-    Destination x,y:
-    - 226
-    - 115
-  'frame: 122':
-    'Head: 0': up
-    Origin x,y:
-    - 166
-    - 120
-    Destination x,y:
-    - 165
-    - 106
-  'frame: 123':
-    'Head: 0': up
-    Origin x,y:
-    - 168
-    - 116
-    Destination x,y:
-    - 193
-    - 107
-  'frame: 124':
-    'Head: 0': up
-    Origin x,y:
-    - 174
-    - 115
-    Destination x,y:
-    - 206
-    - 111
-  'frame: 125':
-    'Head: 0': up
-    Origin x,y:
-    - 172
-    - 117
-    Destination x,y:
-    - 193
-    - 115
-  'frame: 126':
-    'Head: 0': up
-    Origin x,y:
-    - 151
-    - 120
-    Destination x,y:
-    - 132
-    - 107
-  'frame: 127':
-    'Head: 0': up
-    Origin x,y:
-    - 159
-    - 115
-    Destination x,y:
-    - 173
-    - 112
-  'frame: 128':
-    'Head: 0': up
-    Origin x,y:
-    - 148
-    - 116
-    Destination x,y:
-    - 128
-    - 102
-  'frame: 129':
-    'Head: 0': up
-    Origin x,y:
-    - 146
-    - 118
-    Destination x,y:
-    - 130
-    - 106
-  'frame: 130':
-    'Head: 0': up
-    Origin x,y:
-    - 164
-    - 114
-    Destination x,y:
-    - 183
-    - 109
-  'frame: 131':
-    'Head: 0': up
-    Origin x,y:
-    - 173
-    - 113
-    Destination x,y:
-    - 211
-    - 111
-  'frame: 132':
-    'Head: 0': up
-    Origin x,y:
-    - 158
-    - 112
-    Destination x,y:
-    - 161
-    - 103
-  'frame: 133':
-    'Head: 0': up
-    Origin x,y:
-    - 167
-    - 113
-    Destination x,y:
-    - 201
-    - 108
-  'frame: 134':
-    'Head: 0': up
-    Origin x,y:
-    - 171
-    - 115
-    Destination x,y:
-    - 209
-    - 111
-  'frame: 135':
-    'Head: 0': up
-    Origin x,y:
-    - 168
-    - 112
-    Destination x,y:
-    - 193
-    - 110
-  'frame: 136':
-    'Head: 0': up
-    Origin x,y:
-    - 168
-    - 114
-    Destination x,y:
-    - 194
-    - 112
-  'frame: 137':
-    'Head: 0': up
-    Origin x,y:
-    - 152
-    - 105
-    Destination x,y:
-    - 148
-    - 97
-  'frame: 138':
-    'Head: 0': up
-    Origin x,y:
-    - 152
-    - 107
-    Destination x,y:
-    - 164
-    - 99
-  'frame: 139':
-    'Head: 0': up
-    Origin x,y:
-    - 159
-    - 106
-    Destination x,y:
-    - 188
-    - 103
-  'frame: 140':
-    'Head: 0': up
-    Origin x,y:
-    - 160
-    - 106
-    Destination x,y:
-    - 179
-    - 102
-  'frame: 141':
-    'Head: 0': up
-    Origin x,y:
-    - 156
-    - 107
-    Destination x,y:
-    - 173
-    - 105
-  'frame: 142':
-    'Head: 0': up
-    Origin x,y:
-    - 155
-    - 105
-    Destination x,y:
-    - 168
-    - 100
-  'frame: 143':
-    'Head: 0': up
-    Origin x,y:
-    - 154
-    - 103
-    Destination x,y:
-    - 156
-    - 99
-  'frame: 144':
-    'Head: 0': left
-    Origin x,y:
-    - 156
-    - 105
-    Destination x,y:
-    - 172
-    - 105
-  'frame: 145':
-    'Head: 0': down
-    Origin x,y:
-    - 156
-    - 104
-    Destination x,y:
-    - 172
-    - 105
-  'frame: 146':
-    'Head: 0': up
-    Origin x,y:
-    - 155
-    - 104
-    Destination x,y:
-    - 175
-    - 100
-  'frame: 147':
-    'Head: 0': up
-    Origin x,y:
-    - 155
-    - 104
-    Destination x,y:
-    - 168
-    - 98
-  'frame: 148':
-    'Head: 0': up
-    Origin x,y:
-    - 154
-    - 103
-    Destination x,y:
-    - 170
-    - 100
-  'frame: 149':
-    'Head: 0': up
-    Origin x,y:
-    - 142
-    - 106
-    Destination x,y:
-    - 138
-    - 94
-  'frame: 150':
-    'Head: 0': up
-    Origin x,y:
-    - 153
-    - 104
-    Destination x,y:
-    - 167
-    - 101
-  'frame: 151':
-    'Head: 0': up
-    Origin x,y:
-    - 141
-    - 104
-    Destination x,y:
-    - 132
-    - 94
-  'frame: 152':
-    'Head: 0': up
-    Origin x,y:
-    - 154
-    - 104
-    Destination x,y:
-    - 161
-    - 99
-  'frame: 153':
-    'Head: 0': up
-    Origin x,y:
-    - 140
-    - 104
-    Destination x,y:
-    - 121
-    - 95
-  'frame: 154':
-    'Head: 0': up
-    Origin x,y:
-    - 154
-    - 103
-    Destination x,y:
-    - 165
-    - 101
-  'frame: 155':
-    'Head: 0': up
-    Origin x,y:
-    - 151
-    - 104
-    Destination x,y:
-    - 154
-    - 100
-  'frame: 156':
-    'Head: 0': down
-    Origin x,y:
-    - 161
-    - 105
-    Destination x,y:
-    - 198
-    - 106
-  'frame: 157':
-    'Head: 0': up
-    Origin x,y:
-    - 140
-    - 106
-    Destination x,y:
-    - 131
-    - 99
-  'frame: 158':
-    'Head: 0': up
-    Origin x,y:
-    - 165
-    - 110
-    Destination x,y:
-    - 188
-    - 107
-  'frame: 159':
-    'Head: 0': up
-    Origin x,y:
-    - 158
-    - 106
-    Destination x,y:
-    - 172
-    - 100
-  'frame: 160':
-    'Head: 0': up
-    Origin x,y:
-    - 148
-    - 108
-    Destination x,y:
-    - 133
-    - 103
-  'frame: 161':
-    'Head: 0': up
-    Origin x,y:
-    - 153
-    - 111
-    Destination x,y:
-    - 149
-    - 109
-  'frame: 162':
-    'Head: 0': down
-    Origin x,y:
-    - 158
-    - 121
-    Destination x,y:
-    - 151
-    - 132
-  'frame: 163':
-    'Head: 0': down
-    Origin x,y:
-    - 158
-    - 115
-    Destination x,y:
-    - 168
-    - 126
-  'frame: 164':
-    'Head: 0': down
-    Origin x,y:
-    - 151
-    - 118
-    Destination x,y:
-    - 164
-    - 132
-  'frame: 165':
-    'Head: 0': down
-    Origin x,y:
-    - 140
-    - 128
-    Destination x,y:
-    - 136
-    - 169
-  'frame: 166':
-    'Head: 0': down
-    Origin x,y:
-    - 163
-    - 132
-    Destination x,y:
-    - 193
-    - 184
-  'frame: 167':
-    'Head: 0': down
-    Origin x,y:
-    - 152
-    - 133
-    Destination x,y:
-    - 164
-    - 189
-  'frame: 168':
-    'Head: 0': down
-    Origin x,y:
-    - 158
-    - 131
-    Destination x,y:
-    - 171
-    - 200
-  'frame: 169':
-    'Head: 0': down
-    Origin x,y:
-    - 158
-    - 140
-    Destination x,y:
-    - 178
-    - 209
-  'frame: 170':
-    'Head: 0': down
-    Origin x,y:
-    - 161
-    - 139
-    Destination x,y:
-    - 179
-    - 211
-  'frame: 171':
-    'Head: 0': down
-    Origin x,y:
-    - 165
-    - 143
-    Destination x,y:
-    - 205
-    - 216
-  'frame: 172':
-    'Head: 0': down
-    Origin x,y:
-    - 166
-    - 141
-    Destination x,y:
-    - 179
-    - 219
-  'frame: 173':
-    'Head: 0': down
-    Origin x,y:
-    - 145
-    - 149
-    Destination x,y:
-    - 173
-    - 222
-  'frame: 174':
-    'Head: 0': down
-    Origin x,y:
-    - 143
-    - 143
-    Destination x,y:
-    - 161
-    - 219
-  'frame: 175':
-    'Head: 0': down
-    Origin x,y:
-    - 159
-    - 150
-    Destination x,y:
-    - 178
-    - 227
-  'frame: 176':
-    'Head: 0': down
-    Origin x,y:
-    - 152
-    - 158
-    Destination x,y:
-    - 169
-    - 240
-  'frame: 177':
-    'Head: 0': down
-    Origin x,y:
-    - 153
-    - 156
-    Destination x,y:
-    - 160
-    - 236
-  'frame: 178':
-    'Head: 0': down
-    Origin x,y:
-    - 153
-    - 158
-    Destination x,y:
-    - 171
-    - 245
-  'frame: 179':
-    'Head: 0': down
-    Origin x,y:
-    - 153
-    - 158
-    Destination x,y:
-    - 163
-    - 239
-  'frame: 180':
-    'Head: 0': down
-    Origin x,y:
-    - 157
-    - 156
-    Destination x,y:
-    - 186
-    - 242
-  'frame: 181':
-    'Head: 0': down
-    Origin x,y:
-    - 159
-    - 156
-    Destination x,y:
-    - 187
-    - 241
-  'frame: 182':
-    'Head: 0': down
-    Origin x,y:
-    - 153
-    - 157
-    Destination x,y:
-    - 163
-    - 237
-  'frame: 183':
-    'Head: 0': down
-    Origin x,y:
-    - 140
-    - 158
-    Destination x,y:
-    - 150
-    - 237
-  'frame: 184':
-    'Head: 0': down
-    Origin x,y:
-    - 151
-    - 157
-    Destination x,y:
-    - 160
-    - 239
-  'frame: 185':
-    'Head: 0': down
-    Origin x,y:
-    - 150
-    - 159
-    Destination x,y:
-    - 158
-    - 238
-  'frame: 186':
-    'Head: 0': down
-    Origin x,y:
-    - 149
-    - 159
-    Destination x,y:
-    - 165
-    - 240
-  'frame: 187':
-    'Head: 0': down
-    Origin x,y:
-    - 149
-    - 161
-    Destination x,y:
-    - 159
-    - 250
-  'frame: 188':
-    'Head: 0': down
-    Origin x,y:
-    - 150
-    - 160
-    Destination x,y:
-    - 156
-    - 249
-  'frame: 189':
-    'Head: 0': down
-    Origin x,y:
-    - 150
-    - 160
-    Destination x,y:
-    - 154
-    - 241
-  'frame: 190':
-    'Head: 0': down
-    Origin x,y:
-    - 150
-    - 161
-    Destination x,y:
-    - 159
-    - 250
-  'frame: 191':
-    'Head: 0': down
-    Origin x,y:
-    - 151
-    - 162
-    Destination x,y:
-    - 160
-    - 249
-  'frame: 192':
-    'Head: 0': down
-    Origin x,y:
-    - 150
-    - 161
-    Destination x,y:
-    - 164
-    - 248
-  'frame: 193':
-    'Head: 0': down
-    Origin x,y:
-    - 152
-    - 161
-    Destination x,y:
-    - 163
-    - 248
-  'frame: 194':
-    'Head: 0': down
-    Origin x,y:
-    - 150
-    - 162
-    Destination x,y:
-    - 161
-    - 247
-  'frame: 195':
-    'Head: 0': down
-    Origin x,y:
-    - 150
-    - 161
-    Destination x,y:
-    - 163
-    - 241
-  'frame: 196':
-    'Head: 0': down
-    Origin x,y:
-    - 147
-    - 158
-    Destination x,y:
-    - 154
-    - 236
-  'frame: 197':
-    'Head: 0': down
-    Origin x,y:
-    - 149
-    - 159
-    Destination x,y:
-    - 125
-    - 245
-  'frame: 198':
-    'Head: 0': down
-    Origin x,y:
-    - 150
-    - 157
-    Destination x,y:
-    - 120
-    - 237
-  'frame: 199':
-    'Head: 0': down
-    Origin x,y:
-    - 151
-    - 156
-    Destination x,y:
-    - 117
-    - 233
-  'frame: 200':
-    'Head: 0': down
-    Origin x,y:
-    - 151
-    - 157
-    Destination x,y:
-    - 114
-    - 233
-  'frame: 201':
-    'Head: 0': down
-    Origin x,y:
-    - 153
-    - 156
-    Destination x,y:
-    - 114
-    - 230
-  'frame: 202':
-    'Head: 0': down
-    Origin x,y:
-    - 158
-    - 152
-    Destination x,y:
-    - 143
-    - 227
-  'frame: 203':
-    'Head: 0': down
-    Origin x,y:
-    - 153
-    - 154
-    Destination x,y:
-    - 119
-    - 223
-  'frame: 204':
-    'Head: 0': down
-    Origin x,y:
-    - 155
-    - 156
-    Destination x,y:
-    - 116
-    - 226
-  'frame: 205':
-    'Head: 0': down
-    Origin x,y:
-    - 154
-    - 157
-    Destination x,y:
-    - 118
-    - 228
-  'frame: 206':
-    'Head: 0': down
-    Origin x,y:
-    - 152
-    - 154
-    Destination x,y:
-    - 120
-    - 227
-  'frame: 207':
-    'Head: 0': down
-    Origin x,y:
-    - 151
-    - 153
-    Destination x,y:
-    - 127
-    - 226
-  'frame: 208':
-    'Head: 0': down
-    Origin x,y:
-    - 156
-    - 145
-    Destination x,y:
-    - 131
-    - 210
+    'Head: 0':
+      Direction: down
+      Origin x,y:
+      - 154
+      - 161
+      Destination x,y:
+      - 165
+      - 248

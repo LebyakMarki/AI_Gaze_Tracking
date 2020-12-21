@@ -1,9 +1,9 @@
 import numpy as np
 import torch
 from torch.autograd import Variable
-from gaze_v1.get_nets import PNet, RNet, ONet
-from gaze_v1.box_utils import nms, calibrate_box, get_image_boxes, convert_to_square
-from gaze_v1.first_stage import run_first_stage
+from gaze_estimator.get_nets import PNet, RNet, ONet
+from gaze_estimator.box_utils import nms, calibrate_box, get_image_boxes, convert_to_square
+from gaze_estimator.first_stage import run_first_stage
 
 
 class FaceDetector(object):
