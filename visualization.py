@@ -111,12 +111,10 @@ def heat_map(metrics):
     return 0
 
 
-if __name__ == "__main__":
+def visualize():
     metrics_structure = Metrics([])
     load_from_yaml(metrics_structure)
     bar_plots_original_count(metrics_structure)
     bar_plots_round_count(metrics_structure)
     bar_plots_attention(metrics_structure)
     heat_map(metrics_structure)
-else:
-    print("Sorry :(")

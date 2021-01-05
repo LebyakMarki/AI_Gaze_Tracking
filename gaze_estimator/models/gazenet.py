@@ -13,7 +13,7 @@ class GazeNet(nn.Module):
         super(GazeNet, self).__init__()
         self.device = device
         self.preprocess = transforms.Compose([
-            transforms.Resize((112,112)),
+            transforms.Resize((112, 112)),
             transforms.ToTensor(),
             transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
         ])
@@ -42,7 +42,6 @@ class GazeNet(nn.Module):
         self._initialize_bias()
         self.to(device)
 
-
     def _initialize_weight(self):
         nn.init.normal_(self.Conv1.weight, mean=0.0, std=0.01)
         nn.init.normal_(self.Conv2.weight, mean=0.0, std=0.01)
@@ -70,6 +69,6 @@ class GazeNet(nn.Module):
 
     def get_gaze(self, img):
         img = Image.fromarray(img)
-        img = self.preprocess(img)[np.newaxis,:,:,:]
+        img = self.preprocess(img)[np.newaxis, :, :, :]
         x = self.forward(img.to(self.device))
         return x

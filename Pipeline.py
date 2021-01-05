@@ -11,7 +11,7 @@ class Pipeline:
     number_of_frames = 0
     number_of_faces = 0
 
-    def __init__(self, filename="test_videos/one_person_up_down.mp4"):
+    def __init__(self, filename="test_videos/two_people_two_directions.mp4"):
         self.filename = filename
 
     def cut_into_frames(self):
@@ -38,7 +38,7 @@ class Pipeline:
             frame.one_face_detected = True
             for box in boxes_with_faces:
                 x, y, width, height = box
-                new_head = Head(x, y, width, height)
+                new_head = Head(x, y, width, height, "none", [], [], None)
                 heads.append(new_head)
                 self.number_of_faces += 1
             frame.heads = heads
